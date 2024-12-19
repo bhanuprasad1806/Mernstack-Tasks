@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled Container</title>
+    <style>
+        /* Container styling */
+        .container {
+            width: 80%;
+            height: 50vh;
+            margin: 0 auto;
+            background-color: lightgray;
+            padding: 20px;
+            border-radius: 10px;
+            transition: width 0.3s ease, height 0.3s ease;
+        }
+
+        /* Hover effect */
+        .container:hover {
+            width: 90%;
+            height: 40vh;
+        }
+
+        /* Heading styling */
+        h1 {
+            font-size: 2rem;
+        }
+
+        /* Paragraph styling */
+        p {
+            font-size: 1.2em;
+        }
+
+        /* Button styling */
+        button {
+            padding: 10px 45px;
+            cursor: pointer;
+            border: none;
+            background-color: grey;
+            border-radius: 5px;
+        }
+
+        /* Button hover effect */
+        button:hover {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Container</h1>
+        <p>This container changes size when you hover over it!</p>
+        <button>Click Me</button>
+        </div>
+
+</body>
+</html>
